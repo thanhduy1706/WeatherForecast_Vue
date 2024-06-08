@@ -12,6 +12,14 @@
   @apply flex items-center justify-center;
 }
 
+.detail-weather {
+  @apply text-lg font-bold;
+}
+
+.hoverScale {
+  @apply transition hover:scale-110;
+}
+
 .bg-day {
   background-color: #8ec5fc;
   background-image: linear-gradient(62deg, #5868ff 0%, #8296d1 100%);
