@@ -24,7 +24,7 @@ const handleSearch = () => {
     } else {
       searchTerm.results = null
     }
-  }, 500)
+  }, 200)
 }
 
 const getWeather = async (id) => {
